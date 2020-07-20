@@ -11,4 +11,10 @@ public class PagesController {
     public String Hello() {
         return "Hello World!";
     }
+
+    @GetMapping("/math/pi")
+    public String pi() {
+        return "3.141592653589793";
+    }
+
 }
